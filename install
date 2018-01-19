@@ -1,22 +1,21 @@
-Install Oracle Client on Mac OS Hight Sierra
-Yes, it is possible to install Oracle Client on Mac Os Hight Sierra, it may help you to connect the sqldeveloper to a database 
+Install Oracle Client on Mac OS (Intel x86) Hight Sierra
+Yes, it is possible to install Oracle Client on Mac Os Hight Sierra, it may help you to connect the SQLDeveloper to a database 
 
 Just follow the steps.
 
 [1] Download the Instant Client
    ##I download the Version 12.2.0.1.0 (64-bit) Updated 15-Jan-2018 are
-      Go to the oracle site [ WEB ];
-      Accept the agreement;
-      Select Instant Client for Mac OS Version 12.2.0.1.0 (64-bit) Updated 15-Jan-2018;
-
-    ##Select Oracle Client distribution "Instant Client Package - Basic: All files required to run OCI, OCCI, and JDBC-OCI applications" from 12.2.0.4.0 version (64-bit);
+      [1.1] Go to the oracle site [http://www.oracle.com/technetwork/topics/intel-macsoft-096467.html];
+      [1.2] Accept License Agreement;
+      [1.3] Select Instant Client for Mac OS Version 12.2.0.1.0 (64-bit) Updated 15-Jan-2018;
+      ##Select Oracle Client distribution "Instant Client Package - Basic: All files required to run OCI, OCCI, and JDBC-OCI applications" from Version 12.2.0.1.0 (64-bit) Updated 15-Jan-2018;
+     [1.4] You will be request to use a Username and a password to download the file, if you dont have any, please create one.
     
-download the package (http://download.oracle.com/otn/mac/instantclient/11204/instantclient-basic-macos.x64-11.2.0.4.0.zip) using your Oracle free account.
-Then I installed Oracle Instant Client in /Tools/Database directory with the following commands:
-mkdir -p /Tools/Database
-cd /Tools/Database 
-mv /Users/cadili/Downloads/instantclient-basic-macos.x64-11.2.0.4.0.zip .
-unzip instantclient-basic-macos.x64-11.2.0.4.0.zip
+[2] Install Oracle Instant Client in /Tools/Database directory with the following commands:
+   [2.1]mkdir -p /Tools/Database
+   [2.2]cd /Tools/Database 
+   [2.3]mv /Users/CamiloCV/Downloads/instantclient_12_2.zip
+   [2.4]unzip instantclient_12_2.zip
 Archive: instantclient-basic-macos.x64-11.2.0.4.0.zip
 inflating: instantclient_11_2/BASIC_README 
 inflating: instantclient_11_2/adrci 
